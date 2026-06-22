@@ -57,4 +57,28 @@ npx expo start
 - 잠시 기다리면 SpaceX 앱이 스마트폰에서 바로 실행됩니다!
 
 ---
+
+## 🌐 Web Mode (Expo Go 없이 실행하기)
+
+이 앱은 웹 버전으로도 제공되므로, **Expo Go 앱을 설치하지 않고도** 모바일 브라우저(크롬, 사파리 등)에서 바로 실행할 수 있습니다.
+
+### 1. GitHub Pages 이용 (권장)
+GitHub Actions를 통해 자동으로 배포된 웹 버전을 사용할 수 있습니다.
+- 주소: `https://<사용자이름>.github.io/spacex-app/`
+- 장점: 별도의 설치 없이 URL만으로 어디서든 접속 가능합니다.
+
+### 2. 로컬에서 웹 버전 실행하기
+PC에서 웹 버전을 빌드하고 로컬 네트워크를 통해 접속할 수 있습니다.
+
+```bash
+# 1. 웹 버전 빌드
+npx expo export --platform web
+
+# 2. 웹 서버 실행 (serve 패키지 사용)
+npx serve dist
+```
+- 서버가 실행되면 나타나는 주소(예: `http://192.168.x.x:3000`)로 모바일 브라우저에서 접속하세요.
+- PC와 모바일이 **같은 Wi-Fi**에 연결되어 있어야 합니다.
+
+---
 *Built with Expo Router, React Native, and ❤️*
