@@ -56,5 +56,13 @@ npx expo start
 - 모바일 기기에서 **Expo Go** 앱을 열고 이 QR 코드를 스캔합니다.
 - 잠시 기다리면 SpaceX 앱이 스마트폰에서 바로 실행됩니다!
 
+## 🌐 Expo Go 앱 없이 실행하는 방법 (웹 모드)
+
+Expo Go 앱을 설치하고 싶지 않다면, 모바일 브라우저를 통해 웹 버전으로 접속할 수 있습니다.
+
+1. PC와 모바일 기기를 **같은 Wi-Fi**에 연결합니다.
+2. PC 터미널에서 `npx expo start --web`을 입력합니다.
+3. 터미널에 표시된 Local URL(예: `http://192.168.x.x:8081`)을 모바일 브라우저(Chrome, Safari 등) 주소창에 직접 입력합니다.
+
 ---
 *Built with Expo Router, React Native, and ❤️*
