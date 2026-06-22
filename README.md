@@ -31,4 +31,30 @@ npx expo start
 - The SpaceX app will now build and run directly on your smartphone!
 
 ---
+
+## 🇰🇷 모바일에서 실행하는 방법 (간단 안내)
+
+이 앱은 **Expo**를 사용하여 제작되었습니다. 모바일 기기에서 간단하게 실행하려면 다음 단계를 따르세요:
+
+### 1. 사전 준비
+- **모바일 기기**: 앱스토어(iOS) 또는 플레이 스토어(Android)에서 **"Expo Go"** 앱을 설치합니다.
+- **PC**: [Node.js](https://nodejs.org)가 설치되어 있어야 합니다.
+
+### 2. 설치 및 실행
+PC의 터미널(또는 명령 프롬프트)에서 아래 명령어를 순서대로 입력합니다:
+
+```bash
+# 의존성 패키지 설치
+npm install
+
+# 서버 시작
+npx expo start
+```
+
+### 3. 모바일 연결
+- 서버가 실행되면 터미널에 **QR 코드**가 나타납니다.
+- 모바일 기기에서 **Expo Go** 앱을 열고 이 QR 코드를 스캔합니다.
+- 잠시 기다리면 SpaceX 앱이 스마트폰에서 바로 실행됩니다!
+
+---
 *Built with Expo Router, React Native, and ❤️*
